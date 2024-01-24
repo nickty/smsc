@@ -4,7 +4,7 @@ import DictionaryList from "./components/DictionaryList";
 function App() {
   return (
     <div className="App">
-      <h1>English Dictionary</h1>
+      <h1>Render Virtualized</h1>
       <DictionaryList />
     </div>
   );

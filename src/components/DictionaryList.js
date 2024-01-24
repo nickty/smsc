@@ -55,13 +55,13 @@ const DictionaryList = () => {
 
   return (
     <div>
-      <ul>
+      <ul style={{ margin: 10, padding: 0 }}>
         {visibleWords.map((word, index) => (
           <li
             style={{
               listStyle: "none",
               backgroundColor: "#666",
-              margin: 5,
+              marginBottom: 5,
               padding: 10,
             }}
             key={index}
